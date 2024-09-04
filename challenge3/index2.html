@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="logo.png" alt="Logo">
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="account-info">
+                    <a href="#">Account</a>
+                    <div class="cart-info">
+                        <span>3 items</span>
+                        <img src="C:\Users\ANNRISPER\Downloads\cart.png" alt="Cart">
+    
+                    </div>
+                    <div class="profile-pic">
+                        <img src="C:\Users\ANNRISPER\Downloads\profile  picture.jpg" alt="Profile Picture">
+                    
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="account-section">
+                <h2>Account</h2>
+                <div class="progress">
+                    <span class="step completed">Account</span>
+                    <span class="step completed">Shipping</span>
+                    <span class="step">Payment</span>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" value="Email@myemail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" value="********">
+                    </div>
+                    <button type="button" class="btn">Register for account</button>
+                    <button type="submit" class="btn primary">Login</button>
+                </form>
+                <div class="order-actions">
+                    <button type="button" class="btn secondary">Cancel order</button>
+                    <button type="button" class="btn primary">Shipping details</button>
+                </div>
+            </div>
+
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="product">
+                    <img src="C:\Users\ANNRISPER\Downloads\earphones.webp" alt="Sony wireless headphones">
+                    <div class="product-info">
+                        <h3>Sony wireless headphones</h3>
+                        <span class="price">£320.45</span>
+                        <div class="quantity-control">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="discount-code">
+                    <input type="text" placeholder="Gift Card / Discount code">
+                    <button class="btn primary">Apply</button>
+                </div>
+                <div class="summary-details">
+                    <p>Sub total: <span>£316.55</span></p>
+                    <p>Tax: <span>£3.45</span></p>
+                    <p>Shipping: <span>Free</span></p>
+                    <p>Total: <span>£320.45</span></p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
