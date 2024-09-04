@@ -15,7 +15,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: white;
     padding: 10px 20px;
     border-bottom: 1px solid #ddd;
 }
@@ -41,14 +41,15 @@ header .account-info {
     gap: 15px;
 }
 
-header .cart-info, .profile-pic {
+header .cart-info,
+.profile-pic {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
 header .cart-info span {
-    font-size: 14px;
+    
 }
 
 header .profile-pic img {
@@ -62,11 +63,12 @@ main {
     margin-top: 20px;
 }
 
-.account-section, .order-summary {
-    background-color: #fff;
+.account-section,
+.order-summary {
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px grey(0, 0, 0, 0.1);
 }
 
 .account-section {
@@ -86,7 +88,7 @@ main {
 .progress .step {
     padding: 5px 10px;
     border-radius: 20px;
-    background-color: #e0e0e0;
+    background-color: grey;
     color: #fff;
     text-align: center;
     flex: 1;
@@ -94,7 +96,7 @@ main {
 }
 
 .progress .step.completed {
-    background-color: #4caf50;
+    /* background-color: white; */
 }
 
 .form-group {
@@ -127,7 +129,7 @@ main {
 }
 
 .btn.secondary {
-    background-color: #f44336;
+    background-color: grey;
     color: #fff;
 }
 
