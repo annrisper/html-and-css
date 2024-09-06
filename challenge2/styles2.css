@@ -1,23 +1,25 @@
-styles.css
+
 body {
+    display: flex;
+    align-items: center;
+    align-content: center;
     font-family: Arial, sans-serif;
     background-color: #e6f0fa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    margin: 0;
+
 }
 
+
 .card {
-    background-color: white;
+    margin-left: 33%;
+ background-color: white;
     border-radius: 15px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 40px 20px;
     width: 300px;
     position: relative;
-    overflow: hidden;
+
 }
 
 .logo {
@@ -48,6 +50,7 @@ h1 {
 .social-icons img {
     width: 30px;
     transition: transform 0.3s ease;
+    
 }
 
 .social-icons img:hover {
